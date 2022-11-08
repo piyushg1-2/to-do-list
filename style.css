@@ -1,0 +1,118 @@
+
+.search{
+   
+    text-align: center;
+}
+header{
+    padding: 10px 10px;
+    font-size: x-large;
+    font-weight: bold;
+}
+.searchdiv{
+    padding-bottom:10px ;
+}
+.todo-input{
+    width:300px;
+    height:30px;
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.todo-button{
+     border:none;
+     width:70px;
+     height:30px;
+     background-color: rgb(101, 101, 202);
+     color: white;
+     letter-spacing: 1px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+.listcontent{
+    display: flex;
+    
+    width: 34% ;
+    margin:auto;
+    list-style-type: none;
+    background-color: darkgray;
+    margin-bottom: 2px;
+}
+.listpart{
+    padding:10px;
+    color: white;
+    font-size: large;
+    margin-right:auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.edit{
+     border:none;
+     width:70px;
+     height:30px;
+     background-color: rgb(95, 84, 84);
+     color: white;
+     letter-spacing: 1px;
+     font-family: Arial, Helvetica, sans-serif;
+     margin: 5px;   
+}
+.delete{
+    border:none;
+     width:70px;
+     height:30px;
+     background-color: rgb(95, 84, 84);
+     color: white;
+     letter-spacing: 1px;
+     font-family: Arial, Helvetica, sans-serif;
+     margin: 5px;    
+}
+.updation{
+    display: none;
+}
+
+.editcon{
+    width:300px;
+    height:40px;
+}
+.btn{
+    border:none;
+    width:75px;
+    height:40px;
+    background-color: rgb(101, 101, 202);
+    color: white;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media(max-width:540px){
+    .listcontent{
+        display: flex;
+        
+        width: 70% ;
+        margin:0;
+        list-style-type: none;
+        background-color: darkgray;
+        margin-bottom: 2px;
+    }
+    .delete{
+        border:none;
+         width:70px;
+         height:30px;
+         background-color: rgb(95, 84, 84);
+         color: white;
+         letter-spacing: 1px;
+         font-family: Arial, Helvetica, sans-serif;
+         margin: 5px;    
+    }
+    .edit{
+        border:none;
+        width:70px;
+        height:30px;
+        background-color: rgb(95, 84, 84);
+        color: white;
+        letter-spacing: 1px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 5px;   
+   }
+    .todo-input{
+        width:100px;
+        height:30px;
+        font-size: medium;
+    }
+}
